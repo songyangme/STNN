@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 
 ## Train
-Before train, unzip `data/METR-LA.zip`,`data/PeMS-Bay.zip` to `data/METR-LA`, `data/PeMS-Bay`
+Before train, unzip dataset to `data/METR-LA`, `data/PeMS-Bay`
 
 ```
 # Train on PeMS-Bay
