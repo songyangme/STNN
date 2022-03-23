@@ -1,6 +1,7 @@
 /data/METR-LA
 /data/PeMS-Bay
 .idea/
+weights/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -131,3 +132,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/weights/
