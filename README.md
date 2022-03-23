@@ -30,7 +30,6 @@ python test.py --data data/PeMS-Bay --model weights/STNN-combined.state.pt
 ```
 
 ## Citation
-Please cite the following paper if you found useful:
 ```
 @article{yang2021space,
   title={Space Meets Time: Local Spacetime Neural Network For Traffic Flow Forecasting},
