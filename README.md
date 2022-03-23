@@ -22,8 +22,7 @@ python train.py --data data/PeMS-Bay --t_history 12 --t_pred 12 --keep_ratio 0.2
 ```
 
 ## Test
-`weights/STNN-combined.state.pt` is the weights file trained on the combined dataset (METR-LA+PeMS-Bay). 
-*This single weight file can be used in both METR-LA and PeMS-Bay traffic prediction*. 
+This single model can be used in both METR-LA and PeMS-Bay traffic prediction
 ```
 python test.py --data data/METR-LA --model weights/STNN-combined.state.pt
 python test.py --data data/PeMS-Bay --model weights/STNN-combined.state.pt
